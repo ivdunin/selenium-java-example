@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Company Test Suite" verbose="1" >
+  <test name="Login Test">
+    <classes>
+      <class name="com.company.selenium.test.testng.tests.LoginTest" />
+    </classes>
+  </test>
+  <test name="Create Account Test">
+    <classes>
+      <class name="com.company.selenium.test.testng.tests.CreateAccountTest" />
+    </classes>
+  </test>
+  <test name="Patient Smoke Test">
+    <classes>
+      <class name="com.company.selenium.test.testng.tests.PatientSmokeTest" />
+    </classes>
+  </test>
+  <test name="Initial Consult Appointments">
+    <classes>
+      <class name="com.company.selenium.test.testng.tests.InitialConsultAppointments" />
+    </classes>
+  </test>
+  <test name="Procedure Treatments Appointments">
+    <classes>
+      <class name="com.company.selenium.test.testng.tests.ProcedureTreatmentsAppointments" />
+    </classes>
+  </test>
+  <test name="Follow Up Appointments">
+    <classes>
+      <class name="com.company.selenium.test.testng.tests.FollowUpAppointments" />
+    </classes>
+  </test>
+</suite>
